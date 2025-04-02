@@ -35,7 +35,6 @@ def main():
         st.session_state.elapsed_time = time.time() - st.session_state.start_time
     
     st.subheader(f"Elapsed Time: {st.session_state.elapsed_time:.2f} seconds")
-    st.experimental_rerun()
 
 if __name__ == "__main__":
     main()
